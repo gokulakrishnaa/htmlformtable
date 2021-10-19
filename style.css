@@ -1,0 +1,16 @@
+.myform {
+  background-color: rgb(238, 238, 186);
+  padding: 20px;
+  width: 50%;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  margin-top: 10px;
+}
+
+input {
+  margin-left: 1rem;
+}

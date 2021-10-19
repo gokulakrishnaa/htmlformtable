@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Table</title>
+  </head>
+  <body>
+    <div class="myform">
+    <form>
+      <fieldset>
+        <div>
+          <label for="fname"
+            >First Name:<input type="text" name="fname" id="fname" /></label
+          ><br /><br />
+        </div>
+        <div>
+          <label for="lname"
+            >Last Name:<input type="text" name="lname" id="lname" /></label
+          ><br /><br />
+        </div>
+        <div>
+          <label for="address"
+            >Address:<input type="text" name="address" id="address" /></label
+          ><br /><br />
+        </div>
+        <div>
+          <label for="pin"
+            >Pincode:<input type="number" name="pin" id="pin" /></label
+          ><br /><br />
+        </div>
+        <div>
+          <label for="gender" id="gender">Gender:</label><br>
+          <label for="male"
+            ><input
+              type="radio"
+              name="gender"
+              id="male"
+              value="male"
+            />Male</label
+          >
+        </div>
+        <div>
+          <label for="female"
+            ><input
+              type="radio"
+              name="gender"
+              id="female"
+              value="female"
+            />Female</label
+          >
+          <br /><br />
+        </div>
+        <div>
+          <label for="food" id="food">Food:</label>
+          <label for="meals"
+            ><input
+              type="checkbox"
+              id="meals"
+              name="meals"
+              value="meals"
+            />Meals</label
+          >
+          <label for="idly"
+            ><input
+              type="checkbox"
+              id="idly"
+              name="idly"
+              value="idly"
+            />Idly</label
+          >
+          <label for="dosa"
+            ><input
+              type="checkbox"
+              id="dosa"
+              name="dosa"
+              value="dosa"
+            />Dosa</label
+          >
+          <label for="chappathi"
+            ><input
+              type="checkbox"
+              id="chappathi"
+              name="chappathi"
+              value="chappathi"
+            />Chappathi</label
+          >
+          <label for="biriyani"
+            ><input
+              type="checkbox"
+              id="biriyani"
+              name="biriyani"
+              value="biriyani"
+            />Biriyani</label
+          >
+          <br /><br />
+        </div>
+        <div>
+          <label for="state"
+            >State:<input type="text" name="state" id="state" /></label
+          ><br /><br />
+        </div>
+        <div>
+          <label for="country"
+            >Country:<input type="text" name="country" id="country" /></label
+          ><br /><br />
+        </div>
+        <div>
+          <input type="button" value="Submit" onclick="myFunction()"></button>
+          <input type="reset" value="Reset" ></button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+    <div>
+      <table class="mytable" id="mytable">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Address</th>
+          <th>Pincode</th>
+          <th>Gender</th>
+          <th>Food</th>
+          <th>State</th>
+          <th>Country</th>
+        </tr>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+ 
